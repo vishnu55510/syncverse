@@ -11,8 +11,8 @@ Syncverse is a Python package that helps you synchronize files between your loca
 
 You can install Syncverse directly from PyPI using `pip`:
 
-```bash
-pip install syncverse
+
+`pip install syncverse`
 
 
 ## Requirements
@@ -22,8 +22,7 @@ Google API client libraries for Google Drive integration
 
 You can also install the dependencies manually via the requirements.txt:
 
-```bash
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 ## Authentication (Google Drive)
 For Google Drive synchronization, you’ll need to authenticate your Google account. The first time you run a Google Drive sync, the package will prompt you to authenticate using OAuth2. After successful authentication, your credentials will be stored in a token.json file, so you don't need to authenticate again.
