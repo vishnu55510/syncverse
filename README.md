@@ -10,6 +10,8 @@ Syncverse is a Python package that helps you synchronize files between your loca
 ## Installation
 
 You can install Syncverse directly from PyPI using `pip`:
+
+```bash
 pip install syncverse
 
 
@@ -19,6 +21,8 @@ watchdog for file system monitoring
 Google API client libraries for Google Drive integration
 
 You can also install the dependencies manually via the requirements.txt:
+
+```bash
 pip install -r requirements.txt
 
 ## Authentication (Google Drive)
