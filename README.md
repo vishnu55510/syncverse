@@ -18,7 +18,7 @@ To install dependencies manually using requirements.txt:
 
 ## Usage
 ### Importing the Package
-```js
+```console
 import syncverse
 import gdrive_sync
 from syncverse.gdrive_sync import GoogleDriveSyncHandler
@@ -42,11 +42,11 @@ local_sync.sync_file()
 ```
 ### Explanation:
 
-FileSyncHandler: Monitors and synchronizes changes from a source file to a destination file.
+```FileSyncHandler```: Monitors and synchronizes changes from a source file to a destination file.
 
 ## Synchronizing Files with Google Drive
 ### Sync a local file with Google Drive:
-```js
+```console
 from syncverse.gdrive_sync import GoogleDriveSyncHandler
 
 # Authenticate Google Drive (Make sure your 'credentials.json' is in the working directory)
