@@ -7,5 +7,5 @@ Syncverse is a Python package that helps you synchronize files between your loca
 
 ## Installation
 Install Syncverse directly from PyPI using:
-pip install syncverse
+```pip install syncverse```
 
