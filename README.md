@@ -47,7 +47,7 @@ FileSyncHandler: Monitors and synchronizes changes from a source file to a desti
 ## Synchronizing Files with Google Drive
 ### Sync a local file with Google Drive:
 ```js
-from syncverse.gdrive_sync import GoogleDriveSyncHandler, authenticate_drive
+from syncverse.gdrive_sync import GoogleDriveSyncHandler
 
 # Authenticate Google Drive (Make sure your 'credentials.json' is in the working directory)
 drive_service = authenticate_drive()
