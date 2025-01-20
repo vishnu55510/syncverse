@@ -17,7 +17,7 @@ To install dependencies manually using requirements.txt:
 ```pip install -r requirements.txt```
 
 ## Usage
-# Importing the Package
+### Importing the Package
 ```js
 import syncverse
 import gdrive_sync
@@ -25,8 +25,8 @@ from syncverse.gdrive_sync import GoogleDriveSyncHandler
 from syncverse.local_sync import FileSyncHandler
 ```
 
-# Synchronizing Files Locally
-# Sync files between two local directories:
+## Synchronizing Files Locally
+### Sync files between two local directories:
 ```js
 from syncverse.local_sync import FileSyncHandler
 
@@ -40,12 +40,12 @@ local_sync = FileSyncHandler(source_file, destination_file)
 # Start synchronization
 local_sync.sync_file()
 ```
-# Explanation:
+### Explanation:
 
 FileSyncHandler: Monitors and synchronizes changes from a source file to a destination file.
 
-# Synchronizing Files with Google Drive
-# Sync a local file with Google Drive:
+## Synchronizing Files with Google Drive
+### Sync a local file with Google Drive:
 ```js
 from syncverse.gdrive_sync import GoogleDriveSyncHandler, authenticate_drive
 
@@ -61,7 +61,7 @@ drive = GoogleDriveSyncHandler(local_file_path, drive_service, file_id=None)
 # Start synchronization
 drive.sync_to_drive()
 ```
-# Explanation:
+### Explanation:
 
 ```authenticate_drive()```: Authenticates and connects to Google Drive.
 ```GoogleDriveSyncHandler```: Handles synchronization between the local file and Google Drive.
@@ -72,7 +72,7 @@ For Google Drive synchronization, you'll need to authenticate your Google accoun
 
 After successful authentication, your credentials will be stored in a token.json file, so you don't need to authenticate again unless the token expires.
 
-# Steps to authenticate:
+### Steps to authenticate:
 
 Place your ```credentials.json```(from Google Cloud Console) in your working directory.
 Run the script, and a browser window will open for authentication.
