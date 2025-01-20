@@ -27,7 +27,7 @@ from syncverse.local_sync import FileSyncHandler
 
 ## Synchronizing Files Locally
 ### Sync files between two local directories:
-```js
+```html
 from syncverse.local_sync import FileSyncHandler
 
 # Define source and destination file paths
