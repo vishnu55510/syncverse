@@ -18,7 +18,8 @@ To install dependencies manually using requirements.txt:
 
 ## Usage
 # Importing the Package
-```import syncverse
+```bash
+import syncverse
 import gdrive_sync
 from syncverse.gdrive_sync import GoogleDriveSyncHandler
 from syncverse.local_sync import FileSyncHandler```
