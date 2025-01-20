@@ -18,14 +18,14 @@ To install dependencies manually using requirements.txt:
 
 ## Usage
 # Importing the Package
-```bash
+```js
 import syncverse
 import gdrive_sync
 from syncverse.gdrive_sync import GoogleDriveSyncHandler
 from syncverse.local_sync import FileSyncHandler```
 
 # Synchronizing Files Locally
-Sync files between two local directories:
+# Sync files between two local directories:
 ```from syncverse.local_sync import FileSyncHandler
 
 # Define source and destination file paths
